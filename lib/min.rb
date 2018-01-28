@@ -10,6 +10,7 @@ require 'pry'
 
 def get_the_min(groceries)
   groceries.min do |grocery|
-  end
   binding.pry
+  end
+
 end
